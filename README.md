@@ -16,12 +16,14 @@ Each task includes performance benchmarking across dataset sizes.
 ## Structure
 
 ```
-task1.py / task2.py / task3.py / task4.py   # coursework solutions
-clrsPython/                                  # CLRS textbook algorithm implementations
+task1.py / task2.py / task3.py / task4.py   # coursework solutions (original work)
+clrsPython/                                  # provided library — Python implementations of CLRS algorithms
 all_stations.txt                             # London Underground station list
 network_adjacency.json                       # Station graph with travel times
 network_connections.csv                      # Raw connection data
 ```
+
+> `clrsPython` was provided as part of the coursework to ensure students used correct algorithmic implementations from the CLRS textbook rather than ad-hoc solutions. The task files are the original student work.
 
 ## Running
 
