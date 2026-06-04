@@ -1,23 +1,23 @@
-# Advanced Algorithms – London Underground Coursework
+# Graph Algorithms - London Underground
 
-Year 2 coursework applying CLRS algorithms to a real London Underground dataset.
+Python project applying CLRS algorithms to a real London Underground dataset. Originally built as Year 2 coursework, this project compares classic data structures and graph algorithms on a transport-network problem.
 
 ## Tasks
 
 | Task | Algorithm | Problem |
 |------|-----------|---------|
-| 1 | Hash Table (chaining) | Station status lookup — checks if a station is operational |
+| 1 | Hash Table (chaining) | Station status lookup - checks if a station is operational |
 | 2 | Dijkstra | Shortest journey by travel time between two stations |
 | 3 | BFS | Fewest stops route between two stations |
-| 4 | Kruskal / MST | Backbone network — minimum spanning tree of the Underground |
+| 4 | Kruskal / MST | Backbone network - minimum spanning tree of the Underground |
 
 Each task includes performance benchmarking across dataset sizes.
 
 ## Structure
 
-```
-task1.py / task2.py / task3.py / task4.py   # coursework solutions (original work)
-clrsPython/                                  # provided library — Python implementations of CLRS algorithms
+```text
+task1.py / task2.py / task3.py / task4.py   # Coursework solutions (original work)
+clrsPython/                                  # Provided Python implementations of CLRS algorithms
 all_stations.txt                             # London Underground station list
 network_adjacency.json                       # Station graph with travel times
 network_connections.csv                      # Raw connection data
@@ -34,7 +34,7 @@ python task3.py
 python task4.py
 ```
 
-Requires Python 3. No external dependencies — all data structures and algorithms are implemented in `clrsPython/`.
+Requires Python 3. No external dependencies - all data structures and algorithms are implemented in `clrsPython/`.
 
 ## Tech
 
